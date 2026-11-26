@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Heroku App</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #101827;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        h1 {
+            color: #38d9a9;
+            font-size: 42px;
+        }
+
+        button {
+            background: #38d9a9;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to Mini Heroku!</h1>
+
+    <p>Your application is successfully deployed using Docker.</p>
+
+    <p>Powered by Nginx</p>
+
+    <button onclick="showMessage()">Test Application</button>
+
+    <script>
+        function showMessage() {
+            alert("Mini Heroku deployment is successful!");
+        }
+    </script>
+
+</body>
+</html>
